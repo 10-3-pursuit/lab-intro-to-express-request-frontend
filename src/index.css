@@ -3,3 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 40px;
+  margin-left: 125px;
+  margin-top: 50px;
+}
+img{
+  width: 175px;
+}
+
+div{
+  width: 200px
+}
