@@ -1,0 +1,44 @@
+body {
+    background: url("../images/background.png");
+    background-size: 20vw;
+}
+
+h1 {
+    height: 50px;
+    text-align: center;
+    font-size: 35px;
+    color: lightblue;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+li {
+    width: 200px;
+    border-radius: 15px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+td:nth-child(1) {
+    display: flex;
+    justify-content: end;
+    margin: 5px 10px 0px 5px;
+}
+
+img {
+    width: 15vw;
+}
